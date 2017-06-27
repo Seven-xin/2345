@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0 auto;
+				padding: 0;
+			}
+			.box{
+				width: 1000px;
+				border-right: 2px solid gainsboro;
+				border-left: 2px solid gainsboro;
+				margin:50px auto;
+			}
+			h2{
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border-top: 2px solid gainsboro;
+				border-bottom: 2px solid gainsboro;
+				font-size: 20px;
+				border-bottom: 1px solid gainsboro;
+			}
+			a{
+				text-decoration: blink;
+				margin: 0 15px;
+			}
+			dl dt{
+				float: left;
+			}
+			dl dt a{
+				padding: 15px;
+			}
+			dl>dd>ul>li{
+				float:left;
+				text-align: center;
+				width: 125px;
+				display: block;
+			}
+			.line{
+				border-bottom: 1px solid gainsboro;
+			}
+			h2 a:hover{
+				text-decoration: underline;
+				color: red;
+			}
+			dl{
+				height: 30px;
+				line-height: 30px;
+			}
+			dl:hover{
+				background: green;
+			}		
+			h2.cut{
+				width: 1px;
+				height: 10px;
+				display: inline-block;
+				background-color: red;
+				overflow: hidden;
+			}	
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<h2>
+				<a href="">软件</a><i class="cut"></i>
+				<a href="">理财</a><i class="cut"></i>
+				<a href="">信用卡</a><i class="cut"></i>
+				<a href="">银行</a><i class="cut"></i>
+				<a href="">股票</a><i class="cut"></i>
+				<a href="">二手车</a><i class="cut"></i>
+				<a href="">明星</a><i class="cut"></i>
+				<a href="">汽车</a><i class="cut"></i>
+				<a href="">星座</a><i class="cut"></i>
+				<a href="">漫画</a><i class="cut"></i>
+				<a href="">小说</a><i class="cut"></i>
+			</h2>
+			<dl>
+				<dt><a href="">重庆</a></dt>
+				<dd>
+					<ul>
+						<li><a href="">重庆晚报</a></li>
+						<li><a href="">华龙网</a></li>
+						<li><a href="">Q房网</a></li>
+						<li><a href="">重庆在线</a></li>
+						<li><a href="">重庆社区</a></li>
+						<li><a href="">重庆网</a></li>
+						<li><a href="">更多»</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="line">
+				<dt><a href="">重庆</a></dt>
+				<dd>
+					<ul>
+						<li><a href="">重庆晚报</a></li>
+						<li><a href="">华龙网</a></li>
+						<li><a href="">Q房网</a></li>
+						<li><a href="">重庆在线</a></li>
+						<li><a href="">重庆社区</a></li>
+						<li><a href="">重庆网</a></li>
+						<li><a href="">更多»</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</body>
+</html>

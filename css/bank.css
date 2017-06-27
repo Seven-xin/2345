@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*银行*/
+.warp{
+	clear: both;
+}
+.bank{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.bank .bank-list{
+	list-style: none;
+	float: left;
+	margin: 22px auto;
+	
+}
+.bank .bank-list li{
+	border: 1px solid#99A4BE;
+	height: 85px;
+	width: 186px;
+	text-align: center;
+	background-color: white;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	/*padding: 5px 5px;*/
+	margin: 5px 6px;
+}
+.bank .bank-list li:hover{
+	border: 1px solid#FF0000;
+}
+.bank .bank-list li img{
+	width: 100%;
+	height: auto;
+}
+.bank .bank-list li a{
+	float: left;
+	padding: 0 12px;
+	/*text-align: center;*/
+}
+.bank .bank-list li .bank-list-l{
+	/*border: 1px solid #FF0000;*/
+	width: 88px;
+	height: 25px;
+	float: left;
+}
+.bank-list li .phone-icon{
+	width: 70px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.bank-list li .phone-icon i{
+	/*position: absolute;*/
+	background: url(../img/yh-sp.png)no-repeat;
+	height: 17px;
+	width: 20px;
+	float: left;
+	margin-top: 5px;
+	left: 20px;
+}
+.bank-list li .phone-icon span{
+	font-size: 15px;
+	/*margin-right: 10px;*/
+	margin-left: 0 auto;
+	
+}.bank .bank-list li .bank-list-r{
+	float: right;
+	width: 88px;
+	height: 25px;
+	/*border: 1px solid #FF0000;*/
+	/*text-align: left;*/
+	
+}
+.bank-list li .card-icon i{
+	background: url(../img/yh-sp.png)no-repeat;
+	/*display: inline-block;*/
+	display: block;
+	height: 21px;
+	width: 21px;
+	float: left;
+	background-position: 0 -34px;
+	margin: 0 6px;
+	position: relative;
+	left: -18px;
+}
+.bank-list li .card-icon span{
+	font-size: 15px;
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: -19px;
+}
+.bank-list li:last-child a img{
+	width: 100%;
+	margin: 20px 0;
+}
+/*理财专区*/
+/*理财标题*/
+.financing{
+	width: 1200px;
+	margin: 0 auto;
+}
+.f-title{
+	float: left;
+}
+.f-title i{
+	display: inline-block;
+	background: url(../img/yh-sp.png)no-repeat;
+	background-position:0 -74px;
+	height: 26px;
+	width: 26px;
+	/*margin: 20px 20px;*/
+	margin: 0 10px;
+	float: left;
+}
+.f-title span{
+	font-size: 20px;
+	margin-top: 20px;
+}
+/*理财的内容*/
+.f-cont{
+	margin: 0 auto;
+	clear: both;
+	list-style: none;
+}
+.f-cont li{
+	height: 130px;
+	width: 288px;
+	border: 1px solid#D9D9D9;
+	margin: 15px 5px;
+	float: left;
+	background: #FFFFFF;
+	display:inline-block;
+	cursor: pointer;
+}
+.f-cont li a {
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+.f-cont li:hover{
+	border: 1px solid#FF0000;
+}
+.f-cont li a img{
+	/*text-align: center;*/
+	margin: 5px 10px;
+}
+.f-cont li a p{
+	font-size: 15px;
+	margin: 0 10px;
+}
+.f-cont li a p span{
+	padding: 0 10px;
+}
+.f-cont .f-cont-b{
+	float: left;
+	margin: 10px 20px;
+	/*padding: ;*/
+}
+.f-cont .f-cont-b span{
+	font-size: 10px;
+	padding: 0 10px;
+}
+.f-cont .f-cont-b button{
+	background: #e34a3f;
+	height: 25px;
+	width: 75px;
+	color: #FFFFFF;
+	border:none;
+	border-radius: 5px;
+}
+
+/*财经资讯*/
+/*标题*/
+.news{
+	/*clear: both;*/
+	width: 1200px;
+	margin: 20px auto;
+}
+.news-title{
+	width: 100%;
+	float: left;
+}
+.news-title i{
+	float: left;
+	background: url(../img/yh-sp.png) no-repeat;
+	height: 35px;
+	width: 30px;
+	background-position: -45px -75px;
+	margin: 10px 10px;
+}
+.news-title span{
+	float: left;
+	font-size: 20px;
+	margin-top: 10px;
+}
+/*资讯内容*/
+.news-cont{
+	clear: both;
+	border: 1px solid #D9D9D9;
+	width: 1200px;
+	height: auto;
+}
+/*资讯左边的内容*/
+.news-cont .news-left{
+	float: left;
+	width: 800px;
+	margin: 10px 10px;
+	list-style: none;
+	margin-bottom: 60px;
+}
+.news-cont .news-left li{
+	border: 0px solid #D9D9D9;
+	height: 145px;
+	width: 725px;
+	cursor: pointer;
+	margin: 20px 15px;
+}
+.news-cont .news-left li:hover{
+	background-color: #D9D9D9;
+}
+.news-cont .news-left a:hover{
+	color: green!important;
+}
+.news-cont .news-left img{
+	float: left;
+	height: 145px;
+}
+.news-cont .news-left .news-l-word{
+	display: inline-block;
+	margin: 45px 20px;
+}
+.news-cont .news-left a p{
+	/*display: inline-block;*/
+	/*margin: 0 30px;*/
+	/*margin-top: 30px;*/
+	/*padding-top: 30px;*/
+	font-size: 22px;
+	/*margin: 0 20px;*/
+}
+.news-left a span{
+	font-size: 12px;
+}
+/*财经资讯右边*/
+/*右边标题*/
+.news-right{
+	float: right;
+	width: 350px;
+	height: auto;
+	margin: 0 auto;
+}
+.news-right .news-r-title{
+	height: 48px;
+	width: 155px;
+	text-align: center;
+}
+.news-right .news-r-title img{
+	display: inline-block;
+	height: 20px;
+	width: 5px;
+	padding: 0 10px;
+}
+.news-right .news-r-title span{
+	display: inline-block;
+	font-size: 25px;
+	top: 20px;
+}
+.right-pic img{
+	position: relative;
+	width: 350px;
+	height: 180px;
+	/*top: 40px;*/
+	margin: 10px auto;
+}
+.news-r-l{
+	/*position: relative;*/
+	top: 50px;
+	width: 350px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 38px;
+    cursor: pointer;
+}
+.news-r-l span{
+	font-size: 18px;
+	padding: 0 3px;
+}
+.news-r-l .span1,.span2,.span3{
+	color: red;
+}
+
+

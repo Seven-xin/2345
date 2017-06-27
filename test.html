@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img{
+				height: 200px;
+				width: 300px;
+				position: relative;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="pic" src="img/dj1.jpg"/>
+		<script type="text/javascript">
+			var pic = document.getElementById('pic');
+			var arrPic = ['img/dj1.jpg','img/dj2.jpg','img/dj3.jpg','img/dj4.jpg'];
+			var i=0;
+			pic.onclick=function(){
+				pic.src =  arrPic[i];
+				i++;
+				if(i>arrPic.length-1){
+					i=0;
+				}
+			}
+		</script>
+		<div class="box" >
+			<table border="1" cellspacing="" cellpadding="" style="border: 1px solid #FF0000;">
+				<tr><th>Header</th><td>Data</td></tr>
+				<tr><th>Header</th></tr>
+				<tr></tr>
+			</table>
+		</div>
+	</body>
+</html>

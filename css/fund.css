@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*银行*/
+/*bank-list*/
+.bank{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bank-list{
+	list-style: none;
+	float: left;
+}
+.bank-list li{
+	float: left;
+	border: 1px solid #999999;
+	margin: 20px 5px;
+	height: 92px;
+	width: 158px;
+}
+.bank-list li:hover{
+	border: 1px solid #FF0000;
+}
+.bank-list a{
+}
+.bank-list a img{
+	height: 100%;
+	width: 100%;
+}
+
+/*理财必看*/
+.money-must{
+	width: 1200px;
+	margin: 0 auto;
+}
+.money-must-title{
+	margin: 20px 10px;
+}
+.money-must-title i{
+	background: url(../img/yellow-icon.png) no-repeat;
+	height: 30px;
+	/*width: 5px;*/
+	float: left;
+	padding: 0 3px;
+	margin: 0 20px;
+	margin-left: 0;
+}
+.money-must-title span{
+	font-size: 25px;
+}
+.money-must-cont{
+	list-style:none;
+	border: 1px solid #D9D9D9;
+	height: 95px;
+	background-color: #FFFFFF;
+	/*margin: 5px 10px;*/
+}
+.money-must-cont li{
+	float: left;
+	margin: 5px 5px;
+	width: 85px;
+	height: 20px;
+	padding: 0 6px;
+}
+/*基金资讯*/
+.money-news{
+	width: 1200px;
+	margin: 0 auto;
+}
+.money-news-title{
+	margin: 20px auto;
+}
+.money-news-title i{
+	background: url(../img/yellow-icon.png) no-repeat;
+	height: 30px;
+	float: left;
+	/*width: 30px;*/
+	padding: 0 3px;
+	margin: 0 20px;
+	margin-left: 15px;
+	
+}
+.money-news-title span{
+	font-size: 25px;
+}
+.money-news-cont{
+	border: 1px solid #D9D9D9;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+.money-news-cont li{
+	list-style: none;
+	float: left;
+	/*margin-top: 20px ;
+	margin-right: 20px;*/
+	margin: 15px 25px;
+	height: 40px;
+	width: 134px;
+	margin-left: 40px;
+}
+.money-news-cont li a{
+	float: left;
+	cursor: pointer;
+}
+/*基金公司*/
+.money-co{
+	width: 1200px;
+	margin: 0 auto;
+}
+.money-co-title{
+	margin: 20px auto;
+}
+.money-co-title i{
+	background: url(../img/yellow-icon.png) no-repeat;
+	height: 30px;
+	float: left;
+	padding: 0 3px;
+	margin: 0 20px;
+	margin-left: 15px;
+}
+.money-co-title span{
+	font-size: 25px;
+}
+.money-co-list{
+	list-style: none;
+	border: 1px solid #D9D9D9;
+	height: 517px;
+	background-color: #FFFFFF;
+}
+.money-co-list li{
+	height: 30px;
+	width: 160px;
+	float: left;
+	/*margin: 15px 5px;*/
+	margin-top: 15px;
+	padding: 5px 27px;
+	margin-left: 20px;
